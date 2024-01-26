@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=q, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Grocify</title>
 </head>
 <body>
-    <div>
-        <nav>
-            <img src="images/logo.png" alt="logo">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+    <div class=" min-w-screen min-h-screen bg-[url('images/image.png')] bg-center bg-cover px-28 py-2">
+        <nav class="flex">
+            <img src="images/logo.png" alt="logo" class="w-40 h-10 mt-2 cursor-pointer">
+            <ul class="flex-1 text-center no-underline text-white px-2 mt-4">
+                <li class="list-none inline-block px-4"><a href="#">Home</a></li>
+                <li class="list-none inline-block px-4"><a href="#">About</a></li>
+                <li class="list-none inline-block px-4"><a href="#">Features</a></li>
+                <li class="list-none inline-block px-4"><a href="#">Contact</a></li>
             </ul>
-            <img src="images/cart.png" alt="Cart">
+            <img src="images/cart.png" alt="Cart" class=" h-10 mt-2 cursor-pointer">
         </nav>
     </div>
 </body>
